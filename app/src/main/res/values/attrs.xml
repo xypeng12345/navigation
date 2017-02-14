@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--导航栏控件自定义属性-->
+    <declare-styleable name="ViewGroupNavgation">
+        <!--滑块高度-->
+        <attr name="line_height" format="dimension|reference"/>
+        <!--滑块长度，如果不设置默认是随着标题的长改变-->
+        <attr name="line_width" format="integer|dimension|reference"/>
+        <!--滑块颜色-->
+        <attr name="line_color" format="color|reference"/>
+
+        <!--标题最小长度-->
+        <attr name="title_min_width" format="dimension|reference"/>
+        <!--标题字体大小-->
+        <attr name="title_text_size" format="dimension|reference"/>
+        <!--标题字体颜色-->
+        <attr name="title_text_color" format="dimension|reference"/>
+        <!--标题的高度-->
+        <attr name="title_height" format="dimension|reference"/>
+        <!--标题的背景颜色-->
+        <attr name="title_background" format="reference|color"/>
+    </declare-styleable>
+</resources>

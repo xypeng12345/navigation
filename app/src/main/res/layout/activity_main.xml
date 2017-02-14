@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xyp.meyki_bear.navigationtest.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:background="#0f0"
+        android:minWidth="100dp"
+        android:text="1234"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:background="#0f0"
+        android:minWidth="100dp"
+        android:text="4567"
+        android:textSize="20sp" />
+
+    <com.xyp.meyki_bear.navigationtest.ViewGroupNavgation
+        android:id="@+id/vn"
+        auto:line_color="#00ff00"
+        auto:line_height="20dp"
+        auto:title_height="40dp"
+        auto:title_background="#0000ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    </com.xyp.meyki_bear.navigationtest.ViewGroupNavgation>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>
