@@ -1,0 +1,2 @@
+# navigation
+标题栏导航控件，使用效果参考易商营销导航系列，用法里面有，主要是使用控件的BindViewPager，并重写ViewPagerAdapter的getTitle方法，getTitle方法决定了导航栏显示什么东西
